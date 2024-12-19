@@ -7,7 +7,6 @@
     "dev": "next dev",
     "prebuild": "node src/lib/fetch-movies.js",
     "build": "next build",
-    "deploy": "gh-pages -d out",
     "start": "next start",
     "lint": "next lint"
   },
